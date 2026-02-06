@@ -1,4 +1,4 @@
-FROM node:22-bookworm
+FROM qa-roc.apuscn.com/arch-dev/node:22-bookworm
 
 # Install Bun (required for build scripts)
 RUN curl -fsSL https://bun.sh/install | bash
